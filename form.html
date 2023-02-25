@@ -9,9 +9,35 @@
     
 </head>
 <body>
+    <header>
+        <!--might need to take this out-->
+        <nav>
+            
+            <a href="/lab-one">Home</a>
+        </nav>
+    </header>
     <form method="POST" action="http://localhost:3000/profile">
-    <First name
-    Last name
+
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+
+    <label for="Genre">Types of videogames you like:</label><br>
+    <input type="radio" id="Horror">Horror<br>
+    <input type="radio" id="Fantasy">Fantasy<br>
+    <input type="radio" id="Sci-fi">Sci-Fi<br>
+    <input type="radio" id="Adventure">Adventure<br>
+    <input type="radio" id="Action">Action<br>
+
+    <label for="Genre">Game mechanics you like:</label><br>
+    <input type="checkbox" id="rpg">RPG<br>
+    <input type="checkbox" id="ss">Side scroller<br>
+    <input type="checkbox" id="ow">Open-World<br>
+    <input type="checkbox" id="sim">Simulation<br>
+    <input type="checkbox" id="fps">First-person shooter<br>
+    <button type="submit">Submit form</button>
+
     </form>
     
     
